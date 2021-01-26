@@ -1,14 +1,18 @@
 'use strict';
 
-angular.module('myApp.view1', ['ngRoute'])
+angular.module('myApp.easy', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/view1', {
-    templateUrl: 'view1/view1.html',
-    controller: 'View1Ctrl'
+  $routeProvider.when('/easy', {
+    templateUrl: 'easy/easy.html',
+    controller: 'easyCtrl'
   });
 }])
 
-.controller('View1Ctrl', [function() {
+.controller('easyCtrl', [function() {
 
 }]);
+
+var easyDice = ["one", "one", "zero", "zero", "zero", "negOne", "negOne", "negOne",
+                "negTwo", "negTwo", "skull", "skull", "hooded", "tablet", "tenticles"
+                "star"]
