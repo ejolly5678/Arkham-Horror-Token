@@ -12,7 +12,3 @@ angular.module('myApp.easy', ['ngRoute'])
 .controller('easyCtrl', [function() {
 
 }]);
-
-var easyDice = ["one", "one", "zero", "zero", "zero", "negOne", "negOne", "negOne",
-                "negTwo", "negTwo", "skull", "skull", "hooded", "tablet", "tenticles"
-                "star"]
