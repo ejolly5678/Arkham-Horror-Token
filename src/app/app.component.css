@@ -1,0 +1,9 @@
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  color: #55552b;
+  font-family: 'Brush Script Mt', cursive;
+}
