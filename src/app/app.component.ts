@@ -2,12 +2,18 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
+  template:  `
+    <nav class="navbar">
+    <!== logo -->
+    <div class = "navbar-logo">
+        <h1><img src="../assets/img/logo.png"></h1>
+    </div>
+  </nav>
+  `,
   styleUrls: ['./app.component.css'],
 
 
 })
 export class AppComponent {
-  title = 'Arkham Horror Token Selector';
 
 }
