@@ -1,9 +1,11 @@
+
 .center{
   display: flex;
   justify-content: center;
+  width: auto;
 }
 
 h1{
-  color: #55552b;
+  color: #75752a;
   font-family: 'Brush Script Mt', cursive;
-}
+} 
