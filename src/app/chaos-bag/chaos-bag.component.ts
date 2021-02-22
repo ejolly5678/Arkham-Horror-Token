@@ -6,10 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./chaos-bag.component.css']
 })
 export class ChaosBagComponent implements OnInit {
-
-  //These are all the different modes that can exist for the chaos bag 
+   //These are all the different modes that can exist for the chaos bag 
   //might need to change these into JSON format instead of this format 
-  //but temporarly they are arrays 
+  //but temporarly they are arrays
   campaign = ["Standalone", "Night of the Zealot", "The Dunwich Legacy", "The Path to Carcosa",
   "The Forgotten Age", "The Circle Undone", "The Dream-Quest", 
   "The Web of Dreams", "The Innsmouth Conspiracy"];
@@ -39,7 +38,6 @@ scenariosInnsmouth =
 
 
 difficulty = ["easy", "standard", "hard", "expert"];
-
   constructor() { }
 
   ngOnInit(): void {
