@@ -1,3 +1,5 @@
+/*These are the deault angular e2e 
+plan to add more */
 import { browser, logging } from 'protractor';
 import { AppPage } from './app.po';
 

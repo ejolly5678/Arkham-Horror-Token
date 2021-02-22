@@ -15,5 +15,5 @@ import { Component } from '@angular/core';
 
 })
 export class AppComponent {
-
+  title = 'Chaos Bag Helper';
 }
