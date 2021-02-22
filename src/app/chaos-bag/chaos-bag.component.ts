@@ -1,12 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-choas-bag-decider',
-  templateUrl: './choas-bag-decider.component.html',
-  styleUrls: ['./choas-bag-decider.component.css']
+  selector: 'app-chaos-bag',
+  templateUrl: './chaos-bag.component.html',
+  styleUrls: ['./chaos-bag.component.css']
 })
-export class ChoasBagDeciderComponent implements OnInit {
+export class ChaosBagComponent implements OnInit {
 
+  //These are all the different modes that can exist for the chaos bag 
+  //might need to change these into JSON format instead of this format 
+  //but temporarly they are arrays 
   campaign = ["Standalone", "Night of the Zealot", "The Dunwich Legacy", "The Path to Carcosa",
   "The Forgotten Age", "The Circle Undone", "The Dream-Quest", 
   "The Web of Dreams", "The Innsmouth Conspiracy"];
@@ -36,7 +39,6 @@ scenariosInnsmouth =
 
 
 difficulty = ["easy", "standard", "hard", "expert"];
-
 
   constructor() { }
 

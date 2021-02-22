@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ChoasBagDeciderComponent } from './choas-bag-decider.component';
+import { ChaosBagComponent } from './chaos-bag.component';
 
-describe('ChoasBagDeciderComponent', () => {
-  let component: ChoasBagDeciderComponent;
-  let fixture: ComponentFixture<ChoasBagDeciderComponent>;
+describe('ChaosBagComponent', () => {
+  let component: ChaosBagComponent;
+  let fixture: ComponentFixture<ChaosBagComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ChoasBagDeciderComponent ]
+      declarations: [ ChaosBagComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ChoasBagDeciderComponent);
+    fixture = TestBed.createComponent(ChaosBagComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
