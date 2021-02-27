@@ -7,9 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CampaignComponent implements OnInit {
 
-  campaigns : Camp = {
+  campaigns : Campaign = {
     id: 1, 
-    name: 
+    name: "test", 
+    scenario: "test2"
   }
   constructor() { }
 
